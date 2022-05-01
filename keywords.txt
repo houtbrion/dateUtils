@@ -1,13 +1,21 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-
 dateUtils	KEYWORD1
+date_t	KEYWORD1
+
+year	KEYWORD1
+month	KEYWORD1
+mday	KEYWORD1
+wday	KEYWORD1
+hour	KEYWORD1
+minute	KEYWORD1
+second	KEYWORD1
+millisecond	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-
 unixTimeToDate	KEYWORD2
 numOfDays	    KEYWORD2
 dateToUnixTime  KEYWORD2
@@ -16,7 +24,6 @@ dateString	    KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
-
 _DATE_UTILS_H_		PREPROCESSOR
 SUN		LITERAL1
 MON		LITERAL1
@@ -25,3 +32,15 @@ WED		LITERAL1
 THU		LITERAL1
 FRI		LITERAL1
 SAT		LITERAL1
+
+SECONDS_IN_A_DAY		LITERAL1
+UNIX_EPOCH_DAY		LITERAL1
+DAYS_IN_ONE_YEAR		LITERAL1
+DAYS_IN_FOUR_YEAR		LITERAL1
+DAYS_IN_100_YEAR		LITERAL1
+DAYS_IN_400_YEAR		LITERAL1
+
+FORMAT_WDAY		LITERAL1
+FORMAT_TIME		LITERAL1
+FORMAT_DATE		LITERAL1
+FORMAT_ALL		LITERAL1
